@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customScrollBar::-webkit-scrollbar {
+    @apply w-1.5
+}
+
+.customScrollBar::-webkit-scrollbar-thumb {
+    @apply bg-slate-500 rounded cursor-pointer duration-300 hover:bg-slate-300
+}
